@@ -17,7 +17,7 @@ export default function Navbar({ selected }) {
             selected == "home" ? "font-bold" : ""
           }`}
           onClick={(e) => {
-            navigate("/home");
+            navigate("/");
           }}
         >
           Home
